@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+/* Navigation */
+nav {
+	background: #F7F7F7;
+	height: 30px;
+	border-bottom: solid 5px #DCDCDC;
+	color: #979797;
+	font-size: 13px;
+	text-align: center;
+	padding: 18px 0 0 0 ;
+}
+
+nav a {
+	text-decoration: none;
+	color: #979797;
+	text-transform:uppercase;
+	margin-right: 20px;
+}
+
+nav a:hover {
+	color: #006699;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline;
+
+}
+
+/* Feature */
+.feature {
+	background: #006699 url('images/bgpattern.png');
+	height: 240px;
+	padding: 90px 0 0 0 ;
+}
+
+.feature img {
+	float: left;
+}
+
+.feature .info{
+	float: left;
+	padding: 15px 0 0 20px;
+	border-left: solid 1px #FFF;
+	margin: 0 0 0 20px;
+}
+
+.feature .info .what {
+	float: left;
+	text-align: center;
+	color: #FFF;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+.feature .info img {
+	height: 90px;
+	width: auto;
+	float: none;
+	margin-bottom: 5px;
+}
+
+.container {
+	overflow: auto;
+	margin: 0 auto;
+	width: 900px;
+}
+
+@media screen and (max-width: 1024px){
+  .container {
+  	width: auto;
+	}
+}
