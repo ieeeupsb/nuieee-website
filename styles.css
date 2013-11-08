@@ -104,3 +104,24 @@ nav ul li {
 
 	}
 }
+
+@media screen and (max-width: 470px){
+ 	.feature .logo{
+ 		width: 300px;
+ 	}
+
+ 	.feature .info {
+ 		width: 335px;
+
+ 	}
+
+ 	.feature .info .what{
+ 		font-size: 16px;
+ 	}
+
+ 	.feature .info img {
+ 		width: 80px;
+ 	}
+
+
+}
