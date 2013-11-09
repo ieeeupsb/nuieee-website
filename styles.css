@@ -266,11 +266,20 @@ nav ul li {
 	.whoweare img {
 		float: none;
 		margin: 0 auto;
+		width: 90%;
+		height: auto;
 	}
 
 	.whoweare .about {
 		float: none;
+		text-align: center;
 		margin: 0 auto;
+		width: 70%;
+
+	}
+
+	.whoweare .container {
+		width: auto;
 	}
 
 }
