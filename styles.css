@@ -197,6 +197,12 @@ nav ul li {
 	background: #336633;
 	color: #FFF;
 	border: none;
+	cursor: pointer;
+}
+
+.whoweare .about button:hover {
+	background: #427942;
+
 }
 
 .container {
