@@ -207,9 +207,10 @@ nav ul li {
 
 }
 
-@media screen and (max-width: 470px){
+@media screen and (max-width: 480px){
  	.feature .logo{
  		width: 300px;
+ 		height: auto;
  	}
 
  	.feature .info {
@@ -225,5 +226,29 @@ nav ul li {
  		width: 80px;
  	}
 
+}
 
+@media screen and (max-width: 380px){
+ 	.feature .info {
+ 		display: none;
+
+ 	}
+
+ 	.feature .logo {
+ 		width: 230px;
+ 		height: auto;
+ 	}
+
+ 	.feature {
+ 		height: auto;
+ 		padding: 20px 0 20px 0;
+ 	}
+
+ 	nav a {
+ 		margin-right: 5px;
+ 	}
+
+ 	.event {
+ 		width: 90%;
+ 	}
 }
