@@ -262,6 +262,19 @@ nav ul li {
 
 }
 
+@media screen and (max-width: 740px){
+	.whoweare img {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.whoweare .about {
+		float: none;
+		margin: 0 auto;
+	}
+
+}
+
 @media screen and (max-width: 480px){
  	.feature .logo{
  		width: 300px;
