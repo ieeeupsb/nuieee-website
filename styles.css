@@ -183,6 +183,7 @@ nav ul li {
 	width: 300px;
 	height: auto;
 	float: left;
+	opacity: 0.9;
 }
 
 .whoweare .about {
@@ -259,11 +260,7 @@ nav ul li {
 		margin-bottom: 20px;
 	}
 
-
-}
-
-@media screen and (max-width: 740px){
-	.whoweare img {
+    .whoweare img {
 		float: none;
 		margin: 0 auto;
 		width: 90%;
