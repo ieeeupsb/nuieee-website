@@ -84,7 +84,8 @@ nav ul li {
 }
 
 .events h1,
-.contacts h1 {
+.contacts h1,
+.whoweare h1 {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	color: #999999;
@@ -153,6 +154,49 @@ nav ul li {
 
 .contacts .container {
 	width: 760px;
+}
+
+/* Who we are */
+
+.whoweare{
+	background: #669933;
+	padding: 0 0 20px 0;
+	overflow: auto;
+}
+
+.whoweare .container{
+	color: #FFF;
+	text-align: center;
+	width: 730px;
+}
+
+.whoweare h1{
+	color: #FFF;
+}
+
+.whoweare img {
+	width: 300px;
+	height: auto;
+	float: left;
+}
+
+.whoweare .about {
+	float: left;
+	width: 400px;
+	margin-left: 20px;
+	text-align: left;
+	line-height: 20px;
+	padding: 10px 0 0 0;
+
+}
+
+.whoweare .about button {
+	margin-top: 20px;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	background: #336633;
+	color: #FFF;
+	border: none;
 }
 
 .container {
