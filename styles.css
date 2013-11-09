@@ -149,7 +149,12 @@ nav ul li {
 
 .contact .details {
 	float: left;
-	padding: 12px 0 0 7px
+	padding: 12px 0 0 7px;
+}
+
+.contact .details a {
+	text-decoration: none;
+	color: white;
 }
 
 .contacts .container {
