@@ -7,4 +7,6 @@ $(document).ready(function() {
 		window.location.hash = $(this).attr('href');
 		event.preventDefault();
 	});
+
+	  $('.popbox').popbox();
 });

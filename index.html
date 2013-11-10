@@ -2,12 +2,16 @@
 <html>
   <head>
     <title>NuIEEE</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="icon" type="image/png" href="images/favicon.ico">
     <meta name="viewport" content="initial-scale=1" />
     <meta charset="UTF-8">
-  </head>
+    <link rel='stylesheet' href='popbox.css' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type='text/javascript' charset='utf-8' src='popbox.min.js'></script>
+    <script type="text/javascript" src="scripts.js"></script>
 
+  </head>
   <body>
     <!-- BEGIN navigation -->
     <nav>
@@ -47,24 +51,24 @@
         <h1>Próximos Eventos</h1>
         <!-- Workshop Desenvolvimento Web -->
         <div class="event">
-          <img src="images/html5.svg" height="150px">
+          <a href="https://docs.google.com/forms/d/1UCKa5BLrR9rrvUytpTAy-Eu_XPUZW6GmiZsmNiRdXOQ/viewform" target="_blank"><img src="images/html5.svg" height="150px"></a>
           <div class="name">Workshop Desenvolvimento Web</div>
           <div class="date">20 de Novembro</div>
         </div>
         <!-- Workshop MongoDB -->
         <div class="event">
-          <img src="images/mongodb.svg" height="150px">
+          <a href="https://docs.google.com/forms/d/1C8_HlWaxC2ICc19Gl-sjCKq9C6l0UAXYjxHVXSheU3Y/viewform" target="_blank"><img src="images/mongodb.svg" height="150px"></a>
           <div class="name">Workshop MongoDB</div>
           <div class="date">27 de Novembro</div>
         </div>
         <!-- Workshop GIT -->
         <div class="event">
-          <img src="images/git.svg" height="150px">
+          <a href="https://docs.google.com/forms/d/1NTiV6epDJn6ty3hwdFH1gvMFXLPVIbBBK7l2cT4ULC0/viewform" target="_blank"><img src="images/git.svg" height="150px"></a>
           <div class="name">Workshop GIT</div>
           <div class="date">4 de Dezembro</div>
         </div>
-      </div>
 
+      </div>
     </div>
     <!-- END events -->
     <!-- BEGIN who we are -->
@@ -113,13 +117,8 @@
       </div>
     </div>
     <!-- ENG contacts -->
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-    <script type="text/javascript" src="scripts.js"></script>
-
+    <!-- BEGIN analytics -->
     <script type="text/javascript">
-
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-36210654-1']);
       _gaq.push(['_trackPageview']);
@@ -129,7 +128,7 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
+    <!-- End analytics -->
   </body>
 </html>
