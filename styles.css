@@ -205,6 +205,7 @@ nav ul li {
 	color: #FFF;
 	border: none;
 	cursor: pointer;
+	width: 100%;
 }
 
 .whoweare .about button:hover {
