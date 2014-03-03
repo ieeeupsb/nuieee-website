@@ -1,0 +1,17 @@
+{
+  "name": "ieeetalks",
+  "version": "0.1.0",
+  "homepage": "http://nuieee.fe.up.pt",
+  "authors": [
+    "Zé Bateira <jlageb+git@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
