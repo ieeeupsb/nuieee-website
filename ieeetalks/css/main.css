@@ -1,0 +1,72 @@
+/* line 7, ../sass/main.scss */
+body {
+  margin: 0;
+  width: 100%;
+  font-family: "Verdana";
+}
+
+/* line 13, ../sass/main.scss */
+.banner {
+  background-color: #0b5172;
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+/* line 20, ../sass/main.scss */
+.banner img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 26, ../sass/main.scss */
+.banner .banner-tri {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border-style: solid;
+  border-width: 0 75px 75px 0;
+  border-color: transparent #0b5172 transparent transparent;
+}
+
+/* line 40, ../sass/main.scss */
+.header {
+  text-align: center;
+  font-size: 1.6em;
+  background-color: #006699;
+  color: white;
+  padding: 5px;
+}
+
+/* line 51, ../sass/main.scss */
+.entry {
+  margin-top: 50px;
+}
+/* line 55, ../sass/main.scss */
+.entry .title {
+  text-align: center;
+  padding: 20px;
+  float: left;
+  color: white;
+  background-color: #006699;
+  margin-left: 75px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+/* line 68, ../sass/main.scss */
+.entry .desc-wrap {
+  margin: 0 auto;
+  overflow: hidden;
+  color: #333;
+}
+/* line 74, ../sass/main.scss */
+.entry .desc-wrap .desc-top, .entry .desc-wrap .desc-bottom {
+  padding-left: 25px;
+}
+/* line 78, ../sass/main.scss */
+.entry .desc-wrap .desc-hr {
+  background-color: #006699;
+  height: 5px;
+  margin: 5px 0px;
+}
