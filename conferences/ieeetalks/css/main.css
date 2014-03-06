@@ -1,17 +1,23 @@
-/* line 5, ../sass/main.scss */
+/* line 7, ../sass/main.scss */
+a {
+  text-decoration: none;
+  color: #eeeeff;
+}
+
+/* line 12, ../sass/main.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 9, ../sass/main.scss */
+/* line 16, ../sass/main.scss */
 *::selection {
   color: white;
   background-color: chocolate;
 }
 
-/* line 15, ../sass/main.scss */
+/* line 21, ../sass/main.scss */
 body {
   margin: 0;
   width: 100%;
@@ -19,7 +25,7 @@ body {
   background-color: #eeeeff;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 .content-wrap {
   margin: auto;
   width: 90%;
@@ -41,23 +47,43 @@ body {
   height: 100%;
   padding: 30px 0px 10px 0px;
 }
-/* line 20, ../sass/_banner.scss */
-.banner .banner-tri {
+
+/* line 21, ../sass/_banner.scss */
+#tri {
+  position: fixed;
+  right: 0;
+  color: #eef !important;
+  margin-right: 15px;
+  margin-top: 5px;
+  font-size: 1.4em;
+}
+
+/* line 30, ../sass/_banner.scss */
+.banner-tri {
   width: 0px;
   height: 0px;
   position: absolute;
   top: 100%;
   right: 0;
   border-style: solid;
-  border-width: 0 90px 90px 0;
+  border-width: 0 75px 75px 0;
   border-color: transparent #006699 transparent transparent;
 }
 
-/* line 34, ../sass/_banner.scss */
+/* line 41, ../sass/_banner.scss */
+.fixed-tri {
+  position: fixed;
+  top: 0;
+  color: #eeeeff;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+/* line 49, ../sass/_banner.scss */
 .header {
   text-align: center;
   font-size: 1.6em;
-  background-color: #006699;
+  background-color: #00aeef;
   color: white;
   padding: 5px;
   box-shadow: 0px 1px 2px -1px #00aeef;
@@ -70,25 +96,24 @@ body {
 /* line 6, ../sass/_entries.scss */
 .entry .title {
   text-align: center;
-  padding: 15px;
+  padding: 15px 0px;
+  width: 160px;
   float: left;
   color: white;
   background-color: #00aeef;
   text-transform: uppercase;
-  font-size: 1.2em;
-  box-shadow: -1px 0px 2px -1px #00aeef;
 }
-/* line 19, ../sass/_entries.scss */
+/* line 18, ../sass/_entries.scss */
 .entry .desc-wrap {
   margin: 0 auto;
   overflow: hidden;
   color: #333;
 }
-/* line 25, ../sass/_entries.scss */
+/* line 24, ../sass/_entries.scss */
 .entry .desc-wrap .desc-top, .entry .desc-wrap .desc-bottom {
-  padding-left: 25px;
+  padding: 0px 15px;
 }
-/* line 29, ../sass/_entries.scss */
+/* line 28, ../sass/_entries.scss */
 .entry .desc-wrap .desc-hr {
   background-color: #00aeef;
   height: 5px;
@@ -99,33 +124,96 @@ body {
 .where .desc-hr {
   margin-bottom: 0 !important;
 }
-/* line 10, ../sass/_map.scss */
+/* line 15, ../sass/_map.scss */
 .where #map_canvas {
   height: 200px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
 }
 
-/* line 1, ../sass/_speakers.scss */
+/* line 6, ../sass/_speakers.scss */
 .entry-content {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 80px;
   color: #eef;
-  max-width: 800px;
+  max-width: 95%;
 }
-/* line 8, ../sass/_speakers.scss */
+/* line 13, ../sass/_speakers.scss */
+.entry-content a {
+  text-decoration: none;
+  color: #0b5172;
+}
+/* line 17, ../sass/_speakers.scss */
+.entry-content a:hover {
+  text-decoration: underline;
+  color: #1493cf;
+}
+/* line 24, ../sass/_speakers.scss */
 .entry-content .card-wrap {
   padding: 20px;
+  padding-left: 40px;
   display: inline-block;
+  position: relative;
   background-color: #006699;
 }
-/* line 14, ../sass/_speakers.scss */
+/* line 32, ../sass/_speakers.scss */
+.entry-content .card-wrap .entry-tri {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-style: solid;
+  border-width: 0 0 30px 30px;
+  border-color: transparent #eeeeff;
+}
+/* line 43, ../sass/_speakers.scss */
 .entry-content .card-wrap .card-left {
   width: 20%;
   float: left;
+  padding-right: 20px;
+  margin-top: 80px;
 }
-/* line 19, ../sass/_speakers.scss */
+/* line 50, ../sass/_speakers.scss */
+.entry-content .card-wrap .card-left .profile-pic {
+  position: absolute;
+  bottom: 60%;
+  box-shadow: 0px 0px 1px gray;
+}
+/* line 56, ../sass/_speakers.scss */
+.entry-content .card-wrap .card-left .name {
+  font-size: 1.2em;
+}
+/* line 59, ../sass/_speakers.scss */
+.entry-content .card-wrap .card-left .info {
+  font-size: 0.8em;
+}
+/* line 64, ../sass/_speakers.scss */
 .entry-content .card-wrap .card-right {
   width: 80%;
   margin: 0 auto;
   overflow: hidden;
   float: right;
+}
+/* line 70, ../sass/_speakers.scss */
+.entry-content .card-wrap .card-right .talk-title {
+  position: absolute;
+  bottom: 100%;
+  color: #006699;
+  padding-bottom: 5px;
+  font-size: 1.2em;
+}
+/* line 78, ../sass/_speakers.scss */
+.entry-content .card-wrap .card-right .talk-desc {
+  font-size: .9em;
+  text-align: justify;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer {
+  background-color: #00111a;
+  height: 50px;
+  width: 100%;
+  margin-top: 100px;
 }

@@ -1,19 +1,64 @@
+$tri-size-card: 30px;
+
+
+
+
 .entry-content {
   margin: auto;
-  margin-top: 50px;
+  margin-top: 80px;
   color: #eef;
 
-  max-width: 800px;
+  max-width: 95%;
+
+  a {
+    text-decoration: none;
+    color: $dark-blue;
+
+    &:hover {
+      text-decoration: underline;
+      color: lighten($dark-blue, 20%)
+    }
+  }
+
 
   .card-wrap {
     padding: 20px;
+    padding-left: 40px;
     display: inline-block;
+    position: relative;
 
     background-color: $ieee-blue;
 
+    .entry-tri {
+      width: 0px;
+      height: 0px;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-style: solid;
+      border-width: 0 0 $tri-size-card $tri-size-card;
+      border-color: transparent $bg;
+    }
     .card-left {
       width: 20%;
       float: left;
+      padding-right: 20px;
+
+      margin-top: 80px;
+
+      .profile-pic {
+        position: absolute;
+        bottom: 60%;
+        box-shadow: 0px 0px 1px gray;
+      }
+
+      .name {
+        font-size: 1.2em;
+      }
+      .info {
+        font-size: 0.8em;
+      }
     }
 
     .card-right {
@@ -21,6 +66,19 @@
       margin: 0 auto;
       overflow: hidden;
       float: right;
+
+      .talk-title {
+        position: absolute;
+        bottom: 100%;
+        color: #006699;
+        padding-bottom: 5px;
+        font-size: 1.2em;
+      }
+
+      .talk-desc {
+        font-size: .9em;
+        text-align: justify;
+      }
     }
   }
 }

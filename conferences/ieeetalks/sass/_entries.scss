@@ -5,15 +5,14 @@
 
   .title {
     text-align: center;
-    padding: 15px;
+    padding: 15px 0px;
+    width: 160px;
+
     float: left;
     color: white;
     background-color: $bright-blue;
 
     text-transform: uppercase;
-    font-size: 1.2em;
-
-    box-shadow: -1px 0px 2px -1px $bright-blue;
   }
 
   .desc-wrap {
@@ -23,7 +22,7 @@
     color: #333;
 
     .desc-top, .desc-bottom {
-      padding-left: 25px;
+      padding: 0px 15px;
     }
 
     .desc-hr {

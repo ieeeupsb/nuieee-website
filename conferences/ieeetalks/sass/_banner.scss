@@ -1,4 +1,4 @@
-$tri-size: 90px;
+$tri-size: 75px;
 
 
 .banner {
@@ -16,26 +16,40 @@ $tri-size: 90px;
     height: 100%;
     padding: 30px 0px 10px 0px;
   }
+}
 
-  .banner-tri {
-    width: 0px;
-    height: 0px;
+#tri {
+  position: fixed;
+  right: 0;
+  color: #eef !important;
+  margin-right: 15px;
+  margin-top: 5px;
+  font-size: 1.4em;
+}
 
-    position: absolute;
-    top: 100%;
-    right: 0;
-    border-style: solid;
-    border-width: 0 $tri-size $tri-size 0;
-    border-color: transparent $ieee-blue transparent transparent;
-  }
+.banner-tri {
+  width: 0px;
+  height: 0px;
 
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border-style: solid;
+  border-width: 0 $tri-size $tri-size 0;
+  border-color: transparent $ieee-blue transparent transparent;
+}
+.fixed-tri {
+  position: fixed;
+  top: 0;
+  color: $bg;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 .header {
-  // text-transform: uppercase;
   text-align: center;
   font-size: 1.6em;
-  background-color: $ieee-blue;
+  background-color: $bright-blue;
   color: white;
 
   padding: 5px;

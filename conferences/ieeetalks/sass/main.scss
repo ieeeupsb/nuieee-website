@@ -2,6 +2,13 @@ $ieee-blue: #006699;
 $bright-blue: #00aeef;
 $dark-blue: #0b5172;
 
+$bg: #eef;
+
+a {
+  text-decoration: none;
+  color: $bg;
+}
+
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
  }
@@ -11,12 +18,11 @@ $dark-blue: #0b5172;
   background-color: chocolate;
  }
 
-
 body {
   margin: 0;
   width: 100%;
   font-family: "Verdana";
-  background-color: #eeeeff;
+  background-color: $bg;
 }
 
 .content-wrap {
@@ -29,3 +35,4 @@ body {
 @import "entries";
 @import "map";
 @import "speakers";
+@import "footer";
