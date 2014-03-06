@@ -1,10 +1,14 @@
-$ieee-blue: #00aeef;
-$ieee-blue2: #006699;
-$bright-blue: #009fda;
+$ieee-blue: #006699;
+$bright-blue: #00aeef;
 $dark-blue: #0b5172;
 
 *, *:before, *:after {
   -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+ *::selection {
+  color: white;
+  background-color: chocolate;
  }
 
 
@@ -15,6 +19,13 @@ body {
   background-color: #eeeeff;
 }
 
+.content-wrap {
+  margin: auto;
+  width: 90%;
+  max-width: 1024px;
+}
+
 @import "banner";
 @import "entries";
 @import "map";
+@import "speakers";

@@ -8,14 +8,12 @@
     padding: 15px;
     float: left;
     color: white;
-    background-color: $ieee-blue;
-
-    margin-left: 75px;
+    background-color: $bright-blue;
 
     text-transform: uppercase;
     font-size: 1.2em;
 
-    box-shadow: -1px 0px 2px -1px $ieee-blue;
+    box-shadow: -1px 0px 2px -1px $bright-blue;
   }
 
   .desc-wrap {
@@ -29,7 +27,7 @@
     }
 
     .desc-hr {
-      background-color: $ieee-blue;
+      background-color: $bright-blue;
       height: 5px;
 
       margin: 5px 0px;

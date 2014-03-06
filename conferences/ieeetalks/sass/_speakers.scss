@@ -1,0 +1,26 @@
+.entry-content {
+  margin: auto;
+  margin-top: 50px;
+  color: #eef;
+
+  max-width: 800px;
+
+  .card-wrap {
+    padding: 20px;
+    display: inline-block;
+
+    background-color: $ieee-blue;
+
+    .card-left {
+      width: 20%;
+      float: left;
+    }
+
+    .card-right {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+      float: right;
+    }
+  }
+}
