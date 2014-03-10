@@ -210,6 +210,28 @@ body {
   text-align: justify;
 }
 
+/* line 1, ../sass/_registration.scss */
+.registration .entry-content {
+  color: #333;
+  margin-top: 30px;
+}
+/* line 6, ../sass/_registration.scss */
+.registration .entry-content a:hover {
+  text-decoration: none;
+}
+
+/* line 12, ../sass/_registration.scss */
+.registerbtn {
+  background-color: #006699;
+  display: inline-block;
+  color: #eeeeff;
+  padding: 3px;
+}
+/* line 18, ../sass/_registration.scss */
+.registerbtn:hover {
+  background-color: #00aeef;
+}
+
 /* line 1, ../sass/_footer.scss */
 footer {
   background-color: #00111a;
