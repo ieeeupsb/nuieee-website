@@ -1,0 +1,26 @@
+<header>
+    <div class="container">
+        <div class="row flex-container">
+            <div class="col-md-4 hidden-xs col-xs-12">
+                <div class="text-center">
+                    {% if site.facebook %}<a href="https://www.facebook.com/{{ site.facebook }}/"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a>{% endif %}
+                    {% if site.instagram %}<a href="https://www.instagram.com/{{ site.instagram }}/"><i class="fa fa-instagram fa-2x fa-fw"></i></a>{% endif %}
+                    {% if site.flickr %}<a href="https://www.flickr.com/photos/{{ site.flickr }}/"><i class="fa fa-flickr fa-2x fa-fw"></i></a>{% endif %}
+                    <a href="mailto:{{ site.email }}"><i class="fa fa-envelope fa-2x fa-fw"></i></a>
+                </div>
+            </div>
+            <div class="col-md-4  col-xs-12">
+              {% if page.logo %}
+              <img src="{{ "/assets/images/" | append: page.logo | relative_url }}" id="logo" class="img-responsive center-block">
+              {% else %}
+              <img src="{{ "/assets/images/" | append: site.logo | relative_url }}" id="logo" class="img-responsive center-block">
+              {% endif %}
+            </div>
+            <div class="col-md-4 hidden-xs col-xs-12">
+                <div class="text-center" id="highlighted-buttons">
+                    <a class="btn btn-primary" href="{{ "/membership" | relative_url }}" role="button">Join IEEE!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,42 @@
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-xs-4">
+        <h4>{{ site.title }} &copy; {{ 'now' | date: "%Y" }}</h4>
+        <address>
+            <abbr title="Faculty of Engineering of the University of Porto">FEUP</abbr>, R. Dr. Roberto Frias<br>
+            4200-465 Porto<br>
+            Room J201<br>
+            <abbr title="E-mail">E-mail:</abbr> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </address>
+      </div>
+      <div class="col-md-4 col-xs-4">
+        <h4>Sitemap</h4>
+        <ul class="mapsite">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contacts">Contacts</a></li>
+          <li><a href="/news">News</a></li>
+          <li><a href="/members">Members</a></li>
+          <li><a href="/membership">Join IEEE</a></li>
+          <li><a href="/embs">EMBS</a></li>
+          <li><a href="/wie">WiE</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 col-xs-4">
+        <h4>Social</h4>
+        <ul class="social-list">
+          {% if site.facebook %}
+          <li><a href="https://www.facebook.com/{{ site.facebook }}/"><i class="fa fa-facebook-square fa-2x fa-fw"></i></a>Facebook</a></li>
+          {% endif %}
+          {% if site.instagram %}
+          <li><a href="https://www.instagram.com/{{ site.instagram }}/"><i class="fa fa-instagram fa-2x fa-fw"></i>Instagram</a></li>
+          {% endif %}
+          {% if site.flickr %}
+          <li><a href="https://www.flickr.com/photos/{{ site.flickr }}/"><i class="fa fa-flickr fa-2x fa-fw"></i>Flickr</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>

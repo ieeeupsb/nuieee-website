@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+ <section id="post">
+   <article>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-12">
+                  <h2>{{ page.title | escape }}<small style="color:whitesmoke"> {{ page.date | date: "%b %-d, %Y" }}</small></h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                {{ content }}
+              </div>
+          </div>
+      </div>
+   </article>
+  </section>

@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "IEEE Day"
+date:   2016-10-5 10:00:00 +0000
+categories: event
+---
+On October 4th, the IEEE Day was celebrated once again throughout the world, and the student community at the University of Porto was also part of this global event.
+
+<!--more-->
+
+At the Faculty of Engineering, team work, problem solving and creative thinking were put to the test in the first Escape Game organized by the IEEE UP Student Branch. 
+
+Each team had half an hour to complete a series of challenges that would lead to the room's key, allowing them to "escape". Completing those challenges would require some general knowledge and "thinking outside of the box", but also some engineering principles and, most of all, team work.
+
+The feedback from the participants was great, and the one who couldn't attend kept asking for a second edition. Everyone wanted to give it a try.
+
+A great ending to a day dedicated to promoting "the world's largest association of technical professionals". See you next year for another amazing IEEE Day!
+
+{:class="row"}
+![IEEE Day event photo](/assets/images/ieeeday3.jpg){:class="img-responsive col-md-offset-2 col-md-4 col-sm-6"}
+![IEEE Day event photo](/assets/images/ieeeday4.jpg){:class="img-responsive col-md-4 col-sm-6"}
+
+{:class="row"}
+![IEEE Day event photo](/assets/images/ieeeday1.jpg){:class="img-responsive col-md-offset-2 col-md-4 col-sm-6"}
+![IEEE Day event photo](/assets/images/ieeeday2.jpg){:class="img-responsive col-md-4 col-sm-6"}

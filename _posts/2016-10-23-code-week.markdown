@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Code Week"
+date:   2016-10-23 10:00:00 +0000
+categories: workshop
+---
+From the 15th to the 22nd of October, the IEEE UP Student Branch was responsible for organizing many events, held at FEUP (Faculty of Engineering), as a way to promote student cooperation and involvement in what the university as to offer, the development of soft and hard skills to those interested and of course invest in the recognition and awareness of the IEEE as a whole. 
+
+<!--more-->
+
+The events were very diverse in what they presented and the audiences they were targeting:
+
+### Workshops
+
+Workshops centred around Robotics (programming a small robot) aimed for High-School Students and Freshmen, Python for Machine Learning (creating systems that can identify patterns and make predictions), Android Development (how to create apps) and Computational Logic (concepts and important questions), as a way to captivate the interest of the participants to the beauty of coding and engineering, with help from the NIAEFEUP, professor Armando Sousa and associate professor Alípio Jorge. These workshops, a trademark of the IEEE student branch, were very well received and provided for moments of work and enjoyment to the participants and organizers alike.
+
+{:class="row"}
+![Code Week event photo](/assets/images/codeweek2.jpg){:class="img-responsive col-md-4 col-sm-6"}
+![Code Week event photo](/assets/images/codeweek4.jpg){:class="img-responsive col-md-4 col-sm-6"}
+![Code Week event photo](/assets/images/codeweek5.jpg){:class="img-responsive col-md-4 col-sm-6"}
+![Code Week event photo](/assets/images/codeweek3.jpg){:class="img-responsive col-md-offset-2 col-md-4 col-sm-6"}
+![Code Week event photo](/assets/images/codeweek1.jpg){:class="img-responsive col-md-4 col-sm-6"}
+
+
+### POP’16
+The POP’16 (Programming and Optimizing for Performance) aimed at those who wanted to put their coding skills to the test, by optimizing a piece of C code in under 4 hours to the best of their abilities;
+
+{:class="row"}
+![Code Week event photo](/assets/images/codeweek6.jpg){:class="img-responsive col-md-offset-2 col-md-4 col-sm-6"}
+![Code Week event photo](/assets/images/codeweek7.jpg){:class="img-responsive col-md-4 col-sm-6"}
+
+### WiE Talk
+The WiE Talk, Specifically aimed for high-school girls, by a series of young to more mature women who have been involved in the fields of informatics and electrotechnical engineering as a way to provide young girls with a sense of what it really means to be a woman in engineering.
+
+In the end, the Student Branch members were proud of the work done and of what was accomplished and hope to do even better next year.

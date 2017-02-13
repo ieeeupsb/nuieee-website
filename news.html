@@ -1,0 +1,31 @@
+---
+layout: default
+title: News
+---
+<section id="news-list">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="post-list">
+                    {% for post in site.posts %}
+                    <div class="post-list-item">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1 style="text-align:center"><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>Posted on <time datetime="{{ post.date | date:"%b %-d, %Y" }}" pubdate>{{ post.date | date: "%b %-d, %Y" }}</time></small>
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="excerpt">{{ post.excerpt }}</p>
+                                </div>
+                                <div class="col-md-12">
+                                    <p><a href="{{ post.url | relative_url }}" class="btn btn-primary">Read More</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

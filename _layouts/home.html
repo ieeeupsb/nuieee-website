@@ -1,0 +1,113 @@
+---
+layout: default
+---
+
+    <section id="home">
+    </section>
+    <section id="about">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Who we are and what we do</h1>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1 col-xs-6">
+                            <p style="text-align:center">
+                                <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-user fa-stack-1x"></i>
+                                    </span>
+                                <br>Development Soft Skills 
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+                            <p style="text-align:center">
+                                <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-gears fa-stack-1x"></i>
+                                    </span>
+                                <br>Development Hard Skills
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+                            <p style="text-align:center">
+                                <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-group fa-stack-1x"></i>
+                                    </span>
+                                <br>Join Competitions
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+                            <p style="text-align:center">
+                                <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-wrench fa-stack-1x"></i>
+                                    </span>
+                                <br>Events, workshops and conferences
+                            </p>
+                        </div>
+                        <div class="col-md-2 col-xs-6">
+                            <p style="text-align:center">
+                                <span class="fa-stack fa-4x">
+                                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                                        <i class="fa fa-glass fa-stack-1x"></i>
+                                    </span>
+                                <br>Entertainment
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="news">
+        <div class="container-fluid">
+            <div class="row">
+                {% for post in site.posts limit:2 %}
+                <div class="col-md-6">
+                    <article>
+                        <h1>{{ post.title }}</h1>
+                        <p>
+                          {{ post.excerpt }}
+                        </p>
+                        <p>
+                            <time datetime="{{ post.date | date:"%b %-d, %Y" }}" pubdate><i class="fa fa-clock-o"></i> {{ post.date | date: "%b %-d, %Y" }}</time>
+                        </p>
+                        <p><a href="{{ post.url | relative_url }}" class="btn btn-primary">Read More</a></p>
+                    </article>
+                </div>
+                {% else %}
+                <div class="container-fluid">
+                    <h1 class="no-data"><i class="fa fa-info-circle fa-2x" style="vertical-align:middle"></i>There are no news available.</h1>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+    <section id="groups">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1 col-xs-12">
+                    <p>
+                        <a href="{{ "/wie" | relative_url }}"><img src="{{ "/assets/images/wie-up.png" | relative_url}}" class="img-responsive center-block support-image"></a>
+                        <h3>IEEE Women in Engineering UP</h3>
+                        <br>WiE (Women in Engineering) is the largest international professional organization dedicated to promoting women
+                        in the fields of cience and engineering.
+                        <br>WiE UP aims to represent WiE in Universidade do Porto, promoting events and activities mostly directed
+                        to people who study on those fields.
+                    </p>
+                </div>
+                <div class="col-md-4 col-md-offset-2 col-xs-12">
+                    <p>
+                        <a href="{{ "/embs" | relative_url }}"><img src="{{"/assets/images/ieee-embs.png" | relative_url}}" class="img-responsive center-block support-image"></a>
+                        <h3>IEEE EMBS SB Chapter UP</h3>
+                        <br>IEEE Engineering in Medicine and Biology Society (EMBS) is the largest international organization of
+                        biomedical engineers.
+                        <br>Recently created, EMBS SB Chapter UP aims to enrich the base formation, to develop small projects, 
+                        organize workshops and competitions, to participate on national and international conferences
+                        and to be able to bring speakers and prominent personalities in the field to the university.</p>
+                </div>
+            </div>
+        </div>
+    </section>
