@@ -2,15 +2,7 @@
 set -x
 if [ $TRAVIS_BRANCH == 'master' ] ; then
     cd _site
-    git init
-
-    git remote add deploy "nuieee@pinguim.fe.up.pt:/usr/users1/biblioteca/nuieee"
-    git config user.name "NuIEEE Travis CI"
-    git config user.email "nuieee@fe.up.pt"
-
-    git add .
-    git commit -m "Deploy"
-    git push --force deploy master
+    lftp -c "open -u $USERNAME,$PASSWORD homes.fe.up.pt; set ssl:verify-certificate no; mirror -R ./ /public_html"
 else
     echo "Not deploying, since this branch isn't master."
 fi
