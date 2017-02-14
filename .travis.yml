@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - 2.3.3
+before_install:
+  - bash _scripts/install.sh
+script:
+  - bash _scripts/build.sh
+after_success:
+  - bash _scripts/deploy.sh
