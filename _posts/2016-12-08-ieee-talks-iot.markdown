@@ -2,9 +2,8 @@
 layout: post
 title:  "IEEE Talks - IoT"
 date:   2016-12-08 10:00:00 +0000
-categories: workshop
+categories: event
 ---
-
 On the 7th of december of 2016, three companies, Veniam, Next Bitt and Compta, joined our IEEE Talks, moderated by our member João Cacho, to address the nex big thing: The Internet of Things. 
 
 <!--more-->

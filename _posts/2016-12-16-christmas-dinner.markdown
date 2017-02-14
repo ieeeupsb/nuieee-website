@@ -2,7 +2,7 @@
 layout: post
 title:  "Christmas Dinner"
 date:   2016-12-16 10:00:00 +0000
-categories: workshop
+categories: event
 ---
 On the 15th of december 2016, the IEEE UP Student Branch hosted a Christmas dinner for its members, as a way to relax from all the hard work we had throughout the semester and also to strengthen relations between members.
 

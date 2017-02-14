@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "IEEE Day"
-date:   2016-10-5 10:00:00 +0000
+date:   2016-10-05 10:00:00 +0000
 categories: event
 ---
 On October 4th, the IEEE Day was celebrated once again throughout the world, and the student community at the University of Porto was also part of this global event.

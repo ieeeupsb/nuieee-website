@@ -2,7 +2,7 @@
 layout: post
 title:  "Code Week"
 date:   2016-10-23 10:00:00 +0000
-categories: workshop
+categories: event
 ---
 From the 15th to the 22nd of October, the IEEE UP Student Branch was responsible for organizing many events, held at FEUP (Faculty of Engineering), as a way to promote student cooperation and involvement in what the university as to offer, the development of soft and hard skills to those interested and of course invest in the recognition and awareness of the IEEE as a whole. 
 
