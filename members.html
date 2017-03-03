@@ -9,7 +9,7 @@ title: Members
             <h3>Executive Board</h3>
             <hr>
             {% for member in site.data.members.direction %}
-            <div class="col-md-3 col-lg-2 col-xs-6 col-sm-4">
+            <div class="col-md-3 col-lg-2 col-xs-6 col-sm-3">
                 <img class="img-responsive img-thumbnail center-block" src="{{ "/assets/images/members/" | append: member.photo | relative_url}}">
                 <p style="text-align:center">{{member.name}}<br>
                 {{member.position}}<br>
