@@ -23,7 +23,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nuieee.fe.up.pt" # the base hostname & protocol for your site, e.g. http://example.com
 logo: ieee.png
 facebook: nuieeeup
-instagram:  nuieefeup
+instagram:  nuieeefeup
 flickr:  nuieee
 excerpt_separator: <!--more-->
 # Build settings
