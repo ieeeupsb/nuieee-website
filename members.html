@@ -10,11 +10,7 @@ title: Members
             <h3 class="text-center">{{site.data.members.direction.title}}</h3>
             <hr>
             {% for member in site.data.members.direction.members %}
-            {% if forloop.index == 1 %}
-            <div class="col-md-3 col-lg-2 col-lg-offset-1 col-xs-6 col-sm-3">
-            {% else %}
-            <div class="col-md-3 col-lg-2 col-xs-6 col-sm-3">
-            {% endif %}
+            <div class="col-md-2 col-lg-2 col-xs-6 col-sm-3"> 
                 <img class="img-responsive img-thumbnail center-block" src="{{ "/assets/images/members/" | append: member.photo | relative_url}}">
                 <p style="text-align:center">{{member.name}}<br>
                 {{member.position}}<br>
@@ -26,11 +22,53 @@ title: Members
 
         <div class="row">
             {% for department in site.data.members.departments %}
-            <div class="col-lg-4 col-xs-12 col-sm-6">
+            <div class="col-lg-3 col-xs-12 col-sm-6">
                 <div class="row">
                     <h3 class="text-center">{{department.title}}</h3>
                     <hr>
                     {% for member in department.members %}
+                    {% if forloop.length == 1 %}
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 col-md-offset-3 col-lg-offset-3 col-xs-offset-3 col-sm-offset-3">
+                    {% else %}
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
+                    {% endif %}
+                        <img class="img-responsive img-thumbnail center-block" src="{{ "/assets/images/members/" | append: member.photo | relative_url}}">
+                        <p style="text-align:center">{{member.name}}<br>
+                        {{member.course}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+		<div class="row">
+            {% for chapter in site.data.members.chapters %}
+            <div class="col-lg-3 col-xs-12 col-sm-6">
+                <div class="row">
+                    <h3 class="text-center" title="{{chapter.alt}}">{{chapter.title}}</h3>
+                    <hr>
+                    {% for member in chapter.members %}
+                    {% if forloop.length == 1 %}
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 col-md-offset-3 col-lg-offset-3 col-xs-offset-3 col-sm-offset-3">
+                    {% else %}
+                    <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6">
+                    {% endif %}
+                        <img class="img-responsive img-thumbnail center-block" src="{{ "/assets/images/members/" | append: member.photo | relative_url}}">
+                        <p style="text-align:center">{{member.name}}<br>
+                        {{member.course}}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+		<div class="row">
+            {% for afg in site.data.members.affinityGroups %}
+            <div class="col-lg-offset-4 col-lg-4 col-xs-12 col-sm-6">
+                <div class="row">
+                    <h3 class="text-center" title="{{afg.alt}}">{{afg.title}}</h3>
+                    <hr>
+                    {% for member in afg.members %}
                     {% if forloop.length == 1 %}
                     <div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 col-md-offset-3 col-lg-offset-3 col-xs-offset-3 col-sm-offset-3">
                     {% else %}

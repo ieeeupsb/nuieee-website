@@ -2,26 +2,26 @@
     "direction": {
         "title": "Executive Board",
         "members": [
-            {"name": "Rui Vilares","course": "MIEIC","photo": "ruivilares.jpg", "position" : "Chair"},
-            {"name": "Carolina Centeio","course": "MIEIC", "photo": "carolinacenteio.jpg", "position" : "Vice-Chair"},
-            {"name": "Catarina Ribeiro","course": "MIERSI","photo": "catarinaribeiro.jpg", "position" : "Vice-Chair"},
-            {"name": "Diogo Eiras", "course": "MIEIC", "photo": "diogoeiras.jpg", "position" : "Treasurer"},
-            {"name": "Gil Domingues","course": "MIEIC","photo": "gildomingues.jpg", "position" : "Secretary"}
+            {"name": "Filipa Barros","course": "MIEEC","photo": "filipabarros.jpg", "position" : "Chair"},
+            {"name": "António Oliveira","course": "MIEEC", "photo": "empty.jpg", "position" : "Vice-Chair"},
+            {"name": "João Mota","course": "MIEIC","photo": "empty.jpg", "position" : "Vice-Chair"},
+            {"name": "Filipa Crespo","course": "MIERSI","photo": "empty.jpg", "position" : "Vice-Chair"},
+            {"name": "André Sousa", "course": "MIEEC", "photo": "empty.jpg", "position" : "Treasurer"},
+            {"name": "Luís Sousa","course": "MIEEC","photo": "luissousa.jpg", "position" : "Secretary"}
         ]
     },
     "departments": [
         {
                 "title": "Information Technology",
                 "members": [
-                    {"name": "Gil Domingues","course": "MIEIC","photo": "gildomingues.jpg"}
+                    {"name": "Daniel Silva","course": "MIEIC","photo": "danielsilva.jpg"}
                 ]
         }
         ,
         {
                 "title": "Communication and Image",
                 "members": [
-                    {"name": "Leonor Santos","course": "MIEEC", "photo": "leonorsantos.jpg"},
-                    {"name": "Andre Sousa","course": "MIEEC", "photo": "andresousa.jpg"}
+                    {"name": "Leonor Santos","course": "MIEEC", "photo": "leonorsantos.jpg"}
                 ]
         }
         ,
@@ -30,6 +30,54 @@
                 "members": [
                     {"name": "Diogo Martins","course": "MIEEC", "photo": "diogomartins.jpg"}
                 ]
+        },
+        {
+                "title": "Sociocultural",
+                "members": [
+                    {"name": "Hugo Rodrigues","course": "MIEEC", "photo": "empty.jpg"}
+                ]
+        }
+    ],
+    "affinityGroups": [
+        {
+                "title": "WIE",
+		"alt": "Women In Engineering",
+                "members": [
+                    {"name": "Maria Pereira","course": "MIEEC","photo": "empty.jpg"}
+                ]
+        }
+    ],
+    "chapters": [
+        {
+                "title": "RAS",
+                "alt": "Robotics and Automation Society",
+                "members": [
+                    {"name": "Gonçalo Pereira","course": "MIEEC","photo": "empty.jpg"}
+                ]
+        }
+        ,
+        {
+                "title": "CS",
+                "alt": "Computer Society",
+                "members": [
+                    {"name": "Filipe Moreira","course": "MIEIC", "photo": "filipemoreira.jpg"}
+                ]
+        }
+        ,
+        {
+                "title": "EMBS",
+                "alt": "Engineering in Medicine and Biology Society",
+                "members": [
+                    {"name": "Pedro Oliveira","course": "MIB", "photo": "empty.jpg"}
+                ]
+        },
+        {
+                "title": "PES",
+                "alt": "Power and Energy Society",
+                "members": [
+                    {"name": "Miguel Loureiro","course": "MIEEC", "photo": "empty.jpg"}
+                ]
         }
     ]
 }
+
