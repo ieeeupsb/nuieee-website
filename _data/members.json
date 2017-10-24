@@ -4,7 +4,7 @@
         "members": [
             {"name": "Filipa Barros","course": "MIEEC","photo": "filipabarros.jpg", "position" : "Chair"},
             {"name": "António Oliveira","course": "MIEEC", "photo": "empty.jpg", "position" : "Vice-Chair"},
-            {"name": "João Mota","course": "MIEIC","photo": "empty.jpg", "position" : "Vice-Chair"},
+            {"name": "João Mota","course": "MIEIC","photo": "joaomota.jpg", "position" : "Vice-Chair"},
             {"name": "Filipa Crespo","course": "MIERSI","photo": "filipacrespo.jpg", "position" : "Vice-Chair"},
             {"name": "André Sousa", "course": "MIEEC", "photo": "empty.jpg", "position" : "Treasurer"},
             {"name": "Luís Sousa","course": "MIEEC","photo": "luissousa.jpg", "position" : "Secretary"}
