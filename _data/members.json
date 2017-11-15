@@ -3,7 +3,7 @@
         "title": "Executive Board",
         "members": [
             {"name": "Filipa Barros","course": "MIEEC","photo": "filipabarros.jpg", "position" : "Chair"},
-            {"name": "António Oliveira","course": "MIEEC", "photo": "empty.jpg", "position" : "Vice-Chair"},
+            {"name": "António Oliveira","course": "MIEEC", "photo": "antoniooliveira.jpg", "position" : "Vice-Chair"},
             {"name": "João Mota","course": "MIEIC","photo": "joaomota.jpg", "position" : "Vice-Chair"},
             {"name": "Filipa Crespo","course": "MIERSI","photo": "filipacrespo.jpg", "position" : "Vice-Chair"},
             {"name": "André Sousa", "course": "MIEEC", "photo": "empty.jpg", "position" : "Treasurer"},
@@ -52,7 +52,7 @@
                 "title": "RAS",
                 "alt": "Robotics and Automation Society",
                 "members": [
-                    {"name": "Gonçalo Pereira","course": "MIEEC","photo": "empty.jpg"}
+                    {"name": "Gonçalo Pereira","course": "MIEEC","photo": "goncalopereira.jpg"}
                 ]
         }
         ,
