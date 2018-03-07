@@ -8,7 +8,7 @@ On the 15th of december 2016, the IEEE UP Student Branch hosted a Christmas dinn
 
 <!--more-->
 
-All the participants enjoyed the dinner, but the real surprise of the night was the unexpected arrival of the Student Branch Counsellor, Rosaldo Rossetti, who sat beside us and told us about his experiences as a IEEE member and as a professor.
+All the participants enjoyed the dinner, but the real surprise of the night was the unexpected arrival of the Student Branch Counsellor, Rosaldo Rossetti, who sat beside us and told us about his experiences as an IEEE member and as a professor.
 
 {:class="row"}
 ![Christmas dinner photo](/assets/images/christmas-dinner.jpg){:class="img-responsive col-md-offset-3 col-md-6 col-sm-8 col-sm-offset-2"}
