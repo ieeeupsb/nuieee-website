@@ -246,3 +246,8 @@ section a:link,section a:visited,section a:hover,section a:active {
     background-color: $base-background-color;
   }
 }
+
+section#news-list h1 > small{
+    color:#fff;
+    text-shadow: #888 1px 1px;
+}
