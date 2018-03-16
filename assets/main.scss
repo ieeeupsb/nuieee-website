@@ -51,7 +51,7 @@ p {
 
 section {
     color: $base-font;
-    padding: $base-padding*3;
+    padding: $base-padding*1;
 }
 
 header {
@@ -74,9 +74,10 @@ footer {
 }
 
 #home {
-    background: url("./images/header.jpg") no-repeat center center;
+    background: url("./images/header.jpg") no-repeat center top;
     height: $base-homepage-section-size;
     @include background-size(cover);
+    height: 30vw;
 }
 
 #news{
