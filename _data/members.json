@@ -16,12 +16,12 @@
             {
                 "name": "Miguel Simões",
                 "course": "MIEIC",
-                "photo": "miguelsimoes.jpg",
+                "photo": "msimoes.jpg",
                 "position": "Vice-Chair"
             },
             {
                 "name": "Afonso Ramos",
-                "course": "MIERSI",
+                "course": "MIEIC",
                 "photo": "aramos.jpg",
                 "position": "Vice-Chair"
             },
@@ -33,8 +33,8 @@
             },
             {
                 "name": "Marina Castro",
-                "course": "MIEEC",
-                "photo": "marinacastro.jpg",
+                "course": "MIB",
+                "photo": "mcastro.jpg",
                 "position": "Secretary"
             }
         ]
@@ -51,7 +51,7 @@
             "title": "Communication and Image",
             "members": [{
                 "name": "Margarida Fernandes",
-                "course": "MIEEC",
+                "course": "MIB",
                 "photo": "mfernandes.jpg"
             }]
         },
@@ -63,7 +63,7 @@
             "title": "Sociocultural",
             "members": [{
                 "name": "Gonçalo Marantes",
-                "course": "MIEEC",
+                "course": "MIEIC",
                 "photo": "gmarantes.jpg"
             }]
         }
