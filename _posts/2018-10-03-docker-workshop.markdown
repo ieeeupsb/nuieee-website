@@ -11,7 +11,7 @@ On the past 24th October, the **Computer Society** chapter organized a workshop 
 
 A big slice of the audience was students, more precisely informatic students as expected. However, we were surprised with the presence of several employees from HostelWorld. It’s interesting and good to see people from outside the FEUP’s campus coming to our workshops!
 
-The workshop was focus in introducing Docker to the audience. There was some theoretical exposure to introduce key concepts and then the participants had to follow a guide with exercises with the help of João Mota and João Cabral, following a learn by doing approach.
+The workshop was focused in introducing Docker to the audience. There was some theoretical exposure to introduce key concepts and then the participants had to follow a guide with exercises with the help of João Mota and João Cabral, following a learn by doing approach.
 
 The event lasted about 3 hours and participants seemed satisfied with the event which matched their expectation and provided the basic knowledge for using the tool.
 
