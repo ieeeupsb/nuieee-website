@@ -254,45 +254,32 @@ permalink: /cybersecurity
                     <p>Durante esta semana irás ter a opotunidade de participar em vários workshops preparados
                         especialmente para ti!</p>
                     <div class="row">
+                        {% for day in site.data.cybersecurity.days %}
+                        {% for event in day.events %}
+                        {% if event.type == 'workshop' %}
                         <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
                             <div class="content d-flex flex-column align-items-center">
-                                <h5>Most Critical Web Application Security Risks</h5>
+                                <h5>{{ event.title }}</h5>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex align-items-center">
                                         <i class="far fa-clock"></i>
-                                        <span>14:30 - 16:30</span>
+                                        <span>{{ event.starts_at }} - {{ event.ends_at }}</span>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <i class="far fa-calendar"></i>
-                                        <span>12 de Março</span>
+                                        <span>{{ day.day }} de Março</span>
                                     </div>
                                     <div class="d-flex align-items-center">
                                         <i class="fas fa-map-pin"></i>
-                                        <span>TBA</span>
+                                        <span>{{ event.location }}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
-                            <div class="content d-flex flex-column align-items-center">
-                                <h5>Adversarial Machine Learning</h5>
-                                <div class="d-flex flex-column">
-                                    <div class="d-flex align-items-center">
-                                        <i class="far fa-clock"></i>
-                                        <span>13:30 - 16:30</span>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="far fa-calendar"></i>
-                                        <span>14th March</span>
-                                    </div>
-                                    <div class="d-flex align-items-center">
-                                        <i class="fas fa-map-pin"></i>
-                                        <span>TBA</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                   </div>
                 </div>
             </div>
         </div>
