@@ -166,7 +166,7 @@ footer {
     .navbar button.btn.btn-primary, .navbar tito-button.btn.btn-primary {
       width: 100%; } }
 #banner {
-  background: linear-gradient(0deg, rgba(30, 30, 30, 0.3), rgba(40, 40, 40, 0.3)), url(../../resources/images/site.png);
+  background: linear-gradient(0deg, rgba(30, 30, 30, 0.3), rgba(40, 40, 40, 0.3)), url(/assets/cybersecurity/images/site.png);
   background-size: cover;
   height: 100vh;
   width: 100%; }
