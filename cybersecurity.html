@@ -1,0 +1,358 @@
+---
+layout: security 
+title: Cybersecurity Week
+permalink: /cybersecurity 
+---
+{% assign path = '/assets/cybersecurity' %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>CyberSecurity Week</title>
+
+    <link rel="stylesheet" type="text/css" href="{{path}}/resources/assets/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <!-- Ti.to Widget-->
+    <script src='https://js.tito.io/v1' async></script>
+    <script>TitoDevelopmentMode = true</script>
+
+    <script src="{{path}}/resources/assets/js/navbar-background.js"></script>
+    <script src="{{path}}/resources/assets/js/countdown.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="{{path}}/resources/images/logo-letters.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://up.ieee-pt.org">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">Acerca</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Program">Programa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Workshops">Workshops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Sponsors">Patrocínios</a>
+                    </li>
+                </ul>
+
+                <tito-button class="btn btn-primary secondary" event="cyber-security-week/2019">
+                    <span>Reserva Já</span>
+                </tito-button>
+            </div>
+
+        </nav>
+    </header>
+
+    <div id="banner">
+        <div class="content d-flex flex-column justify-content-center align-items-center">
+            <h1>Cybersecurity Week</h1>
+            <div id="timer" class="row d-inline-flex mt-5">
+                <div class="col">
+                    <p id="days" class="time-number"></p>
+                    <p class="time-text">Dias</p>
+                </div>
+                <div class="col">
+                    <p id="hours" class="time-number"></p>
+                    <p class="time-text">Horas</p>
+                </div>
+                <div class="col">
+                    <p id="minutes" class="time-number"></p>
+                    <p class="time-text">Minutos</p>
+                </div>
+                <div class="col">
+                    <p id="seconds" class="time-number"></p>
+                    <p class="time-text">Segundos</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div id="about" class="section light-section">
+            <a id="About"></a>
+            <div class="container">
+                <div class="title">
+                    <h2>Acerca</h2>
+                    <svg width="132" height="18" viewBox="0 0 132 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 16L19.6748 2L38.2049 15.8915L56.5902 2L75.265 16L93.9399 2L112.47 16L131 2"
+                            stroke-width="3" />
+                    </svg>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <p class="mr-md-4">
+
+                                A <b>Semana de Cibersegurança</b> numa altura em que a opinião pública está dividida. O
+                                núcleo do IEEE Universidade do Porto SB pretende oferecer à diversa comunidade da
+                                U.Porto um evento que promove a aprendizagem de diferentes tópicos das diversas áreas
+                                da Cibersegurança. </p>
+
+                            <p>Durante a semana os participantes poderão participar em palestras, workshops, sessões
+                                de convívio e networking, entrando em contacto direto, de forma informal, com
+                                especialistas nas diversas subáreas, quer de carácter técnico, soft skills ou
+                                curiosidade, que não são abrangidas no plano curricular nem são abordados com
+                                facilidade e tão abertamente.</p>
+                            <!--<button type="button" class="btn btn-primary highlight mt-4"><span>Sabe
+                                    Mais</span></button>-->
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+
+                            <div class="d-flex justify-content-start align-items-center ml-md-4">
+                                <i class="far fa-calendar"></i>
+                                <div class="icon-content">
+                                    <h4>Quando</h4>
+                                    <p>11 a 15 de Março de 2019</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex justify-content-start align-items-center mt-5 ml-md-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="icon-content">
+                                    <h4>Onde</h4>
+                                    <p>Faculdade de Engenharia da Universidade do Porto</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="divider" class="section dark-section">
+            <div class="container">
+                <div class="title mb-0">
+                    <h2>Reserva já o teu lugar</h2>
+                </div>
+                <div class="content">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-9">
+                            <p>A participação neste evento é totalmente gratuita. De modo a participar em qualquer uma
+                                das atividades disponíveis, por favor inscreve-te nas quais pretendes assistir.</p>
+                        </div>
+                        <div class="col-sm-12 col-md-3">
+                            <tito-button class="btn btn-primary secondary float-right" event="cyber-security-week/2019">
+                                <span>Reserva Já</span>
+                            </tito-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="program" class="section light-section">
+            <a id="Program"></a>
+            <div class="container">
+                <div class="title">
+                    <h2>Programa</h2>
+                    <svg width="132" height="18" viewBox="0 0 132 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 16L19.6748 2L38.2049 15.8915L56.5902 2L75.265 16L93.9399 2L112.47 16L131 2"
+                            stroke-width="3" />
+                    </svg>
+                </div>
+                <div class="content">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        {% for d in site.data.cybersecurity.days %}
+                            {% if d == site.data.cybersecurity.days.first %}
+                                {% assign active = 'active' %}
+                            {% else %}
+                                {% assign active = '' %}
+                            {% endif %}
+                            <li class="nav-item">
+                                <a class="nav-link {{ active }}" id="pills-day-{{ d.day }}-tab" data-toggle="pill" href="#pills-day-{{ d.day }}" role="tab"
+                                    aria-controls="pills-day-{{ d.day }}" aria-selected="true">Dia {{ d.day }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+                        {% for d in site.data.cybersecurity.days %}
+                        {% if d == site.data.cybersecurity.days.first %}
+                            {% assign class = 'show active' %}
+                        {% else %}
+                            {% assign class = '' %}
+                        {% endif %}
+                        <div class="tab-pane fade {{ class }}" id="pills-day-{{ d.day }}" role="tabpanel" aria-labelledby="pills-day-{{ d.day }}-tab">
+                            {% for event in d.events %}
+                            <div class="program-row d-flex align-items-stretch">
+                                <div class="info d-flex flex-column justify-content-center align-items-center">
+                                    <h6>{{ event.starts_at }} - {{ event.ends_at }}</h6>
+                                    <h6>{{ event.type }}</h6>
+                                </div>
+                                <div class="description">
+                                    <h5>{{ event.title }}</h5>
+                                    <p>{{ event.description }}</p>
+                                    <div class="d-flex">
+                                        <div class="d-flex align-items-center">
+                                            <i class="fas fa-user"></i>
+                                            <span>{{ event.speaker }}</span>
+                                        </div>
+                                        <div class="d-flex align-items-center ml-5">
+                                            <i class="fas fa-map-pin"></i>
+                                            <span>{{ event.location }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="workshops" class="section dark-section">
+            <a id="Workshops"></a>
+            <div class="container">
+                <div class="title">
+                    <h2>Workshops</h2>
+                    <svg width="132" height="18" viewBox="0 0 132 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 16L19.6748 2L38.2049 15.8915L56.5902 2L75.265 16L93.9399 2L112.47 16L131 2"
+                            stroke-width="3" />
+                    </svg>
+                </div>
+                <div class="content">
+                    <p>Durante esta semana irás ter a opotunidade de participar em vários workshops preparados
+                        especialmente para ti!</p>
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                            <div class="content d-flex flex-column align-items-center">
+                                <h5>Most Critical Web Application Security Risks</h5>
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center">
+                                        <i class="far fa-clock"></i>
+                                        <span>14:30 - 16:30</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="far fa-calendar"></i>
+                                        <span>12 de Março</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-map-pin"></i>
+                                        <span>TBA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6 col-lg-3 mt-4">
+                            <div class="content d-flex flex-column align-items-center">
+                                <h5>Adversarial Machine Learning</h5>
+                                <div class="d-flex flex-column">
+                                    <div class="d-flex align-items-center">
+                                        <i class="far fa-clock"></i>
+                                        <span>13:30 - 16:30</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="far fa-calendar"></i>
+                                        <span>14th March</span>
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <i class="fas fa-map-pin"></i>
+                                        <span>TBA</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sponsors" class="section light-section">
+            <a id="Sponsors"></a>
+            <div class="container">
+                <div class="title">
+                    <h2>Sponsors</h2>
+                    <svg width="132" height="18" viewBox="0 0 132 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 16L19.6748 2L38.2049 15.8915L56.5902 2L75.265 16L93.9399 2L112.47 16L131 2"
+                            stroke-width="3" />
+                    </svg>
+                </div>
+                <div class="content">
+                    <div class="d-flex justify-content-between flex-wrap mt-4">
+                        <img src="{{path}}/resources/images/veniam.png" alt="veniam" width="300" height="200">
+                        <!--<img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">-->
+                    </div>
+                    <!--<h4 class="mt-5">Silver</h4>
+                    <div class="d-flex justify-content-between flex-wrap mt-4">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                    </div>
+                    <h4 class="mt-5">Bronze</h4>
+                    <div class="d-flex justify-content-between flex-wrap mt-4">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                    </div>
+                    <h4 class="mt-5">Partners</h4>
+                    <div class="d-flex justify-content-between flex-wrap mt-4">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                        <img src="#" alt="company name">
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container d-flex flex-column align-items-center">
+            <img src="{{path}}/resources/images/NuIEEE_logo_white.svg" alt="ieee logo">
+            <div class="socials">
+                <a href="https://www.facebook.com/ieeeupsb/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ieeeupsb/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/nuieee/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <p>Copyright Ⓒ 2019 IEEE UP Student Branch. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
