@@ -228,14 +228,15 @@ footer {
   width: 100%;
   border-bottom: 2px dashed #e5e5e5; }
   #program .program-row .description p,
-  #program .program-row .description span {
+  #program .program-row .description span,
+  #program .program-row .description ul {
     font-size: 0.9em; }
 #program .program-row:nth-child(odd) .info {
   background-color: #343540; }
 #program .program-row:last-child .description {
   border-bottom: none; }
 #program .tab-pane.active {
-  animation: slideInLeft 0.7s ease-out; }
+  animation: slideInLeft 0.7s ease-out;}
 
 #workshops div[class^='col-'] {
   color: black;
