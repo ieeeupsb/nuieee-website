@@ -209,6 +209,9 @@ footer {
   border-radius: 0; }
   #program .nav-item a.active {
     background-color: #343540; }
+#program .tba.program-row {
+  min-height: 5rem;
+}
 #program .program-row .info {
   background-color: rgba(52, 53, 64, 0.8);
   color: white;
