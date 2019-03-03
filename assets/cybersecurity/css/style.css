@@ -76,16 +76,11 @@ p {
     color: black;
     background-color: rgba(52, 53, 64, 0.08); }
 
-tito-button.btn.btn-primary span {
-  color: white;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
-  position: relative;
-  z-index: 2; }
-
-button.btn.btn-primary, tito-button.btn.btn-primary {
+button.btn.btn-primary,
+tito-button.btn.btn-primary {
   position: relative;
   display: inline-block;
+  min-width: fit-content;
   color: white;
   font-size: 0.9em;
   outline: none;
@@ -97,13 +92,17 @@ button.btn.btn-primary, tito-button.btn.btn-primary {
   text-decoration: none;
   overflow: hidden;
   transition: all .5s; }
-  button.btn.btn-primary span, tito-button.btn.btn-primary span {
+  button.btn.btn-primary span,
+  tito-button.btn.btn-primary span {
     color: white;
     text-transform: uppercase;
     font-family: "Oswald", sans-serif;
     position: relative;
-    z-index: 2; }
-  button.btn.btn-primary:before, button.btn.btn-primary:after, tito-button.btn.btn-primary:before, tito-button.btn.btn-primary:after {
+    z-index: 2;
+    cursor: pointer; }
+  button.btn.btn-primary:before, button.btn.btn-primary:after,
+  tito-button.btn.btn-primary:before,
+  tito-button.btn.btn-primary:after {
     content: '';
     position: absolute;
     left: 0;
@@ -114,23 +113,32 @@ button.btn.btn-primary, tito-button.btn.btn-primary {
     z-index: 1;
     transform: translate3D(0, -100%, 0);
     transition: all .5s; }
-  button.btn.btn-primary:before, tito-button.btn.btn-primary:before {
+  button.btn.btn-primary:before,
+  tito-button.btn.btn-primary:before {
     z-index: 0;
     transform: translate3D(0, 0, 0); }
-  button.btn.btn-primary:after, tito-button.btn.btn-primary:after {
+  button.btn.btn-primary:after,
+  tito-button.btn.btn-primary:after {
     top: 0;
     z-index: 1;
     transform: translate3D(-101%, 0, 0); }
-  button.btn.btn-primary:hover:after, tito-button.btn.btn-primary:hover:after {
+  button.btn.btn-primary:hover:after,
+  tito-button.btn.btn-primary:hover:after {
     transform: translate3D(0, 0, 0);
     transition: all .5s; }
-  button.btn.btn-primary.secondary:before, button.btn.btn-primary.secondary:after, tito-button.btn.btn-primary.secondary:before, tito-button.btn.btn-primary.secondary:after {
+  button.btn.btn-primary.secondary:before, button.btn.btn-primary.secondary:after,
+  tito-button.btn.btn-primary.secondary:before,
+  tito-button.btn.btn-primary.secondary:after {
     background: #F15A24; }
-  button.btn.btn-primary.secondary:before, tito-button.btn.btn-primary.secondary:before {
+  button.btn.btn-primary.secondary:before,
+  tito-button.btn.btn-primary.secondary:before {
     background: #A67C52; }
-  button.btn.btn-primary.highlight:before, button.btn.btn-primary.highlight:after, tito-button.btn.btn-primary.highlight:before, tito-button.btn.btn-primary.highlight:after {
+  button.btn.btn-primary.highlight:before, button.btn.btn-primary.highlight:after,
+  tito-button.btn.btn-primary.highlight:before,
+  tito-button.btn.btn-primary.highlight:after {
     background: #A67C52; }
-  button.btn.btn-primary.highlight:before, tito-button.btn.btn-primary.highlight:before {
+  button.btn.btn-primary.highlight:before,
+  tito-button.btn.btn-primary.highlight:before {
     background: #F15A24; }
 
 footer {
@@ -163,7 +171,8 @@ footer {
   .navbar {
     background-color: #343540;
     padding: 1.2em !important; }
-    .navbar button.btn.btn-primary, .navbar tito-button.btn.btn-primary {
+    .navbar button.btn.btn-primary,
+    .navbar tito-button.btn.btn-primary {
       width: 100%; } }
 #banner {
   background: linear-gradient(0deg, rgba(30, 30, 30, 0.3), rgba(40, 40, 40, 0.3)), url(/assets/cybersecurity/images/site.png);
@@ -231,15 +240,15 @@ footer {
   width: 100%;
   border-bottom: 2px dashed #e5e5e5; }
   #program .program-row .description p,
-  #program .program-row .description span,
-  #program .program-row .description ul {
+  #program .program-row .description ul,
+  #program .program-row .description span {
     font-size: 0.9em; }
 #program .program-row:nth-child(odd) .info {
   background-color: #343540; }
 #program .program-row:last-child .description {
   border-bottom: none; }
 #program .tab-pane.active {
-  animation: slideInLeft 0.7s ease-out;}
+  animation: slideInLeft 0.7s ease-out; }
 
 #workshops div[class^='col-'] {
   color: black;
