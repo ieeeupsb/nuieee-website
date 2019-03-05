@@ -28,24 +28,21 @@
             "day": 12,
             "events": [
                 {
-                    "public": false,
+                    "public": true,
                     "starts_at": "14:30",
                     "ends_at": "16:30",
                     "type": "workshop",
-                    "title": "Exploiting vulnerabilities of top 10 OWASP",
-                    "description": "Jscrambler is the leader in client-side security. The company’s enterprise-grade security solutions enable JavaScript applications to become self-defensive and resilient to tampering and reverse-engineering, while also providing complete 
-visibility over client-side attacks, including DOM tampering, supply chain attacks, and customer hijacking. Jscrambler is trusted by the Fortune 500 and 43.000+ companies and individuals globally.
+                    "title": "Exploiting Web Vulnerabilities (OWASP Top 10)",
+                    "description": "Neste workshop poderás explorar vulnerabilidades do [OWASP Top 10 2017](https://www.owasp.org) com uma aplicação web feita em **Node.js**. Por exemplo:
 
-In this workshop we will exploit the vulnerabilities of OWASP Top 10 2017 with a web application built with Node.js. Like:
-
-- Server Side JS Injection\n
-- SQL and NoSQL Injection\n
+- Injeção de JavaScript no lado do servidor\n
+- Injeção de SQL e NoSQL\n
 - Insecure Direct Object References\n
 
-Requisites:
+**Requisitos:**
 
-- Your laptop\n
-- [Virtual Box](https://www.virtualbox.org/wiki/Downloads) installed\n
+- Um computador portátil pessoal\n
+- [Virtual Box](https://www.virtualbox.org/wiki/Downloads) instalado\n
 - [Node Goat VM](https://drive.google.com/file/d/18AbutDP2zQNaB-vUoXXJ4QQ6ihog6GW4/view?usp=sharing)\n",
                     "speaker": "Rui Silva | Jscrambler",
                     "location": "I-105"
