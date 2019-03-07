@@ -26,12 +26,17 @@
                     "location": "TBA"
                 },
                 {
-                    "public": false,
+                    "public": true,
                     "starts_at": "17:00",
                     "ends_at": "19:00",
                     "type": "talk",
-                    "title": "WebAuthn",
-                    "description": null,
+                    "title": "WebAuthn: Goodbye passwords!",
+                    "description": "Todos os anos surge novo hardware e software que prometem o fim das passwords tal como as conhecemos. Desde a Apple com leitores de impressões digitais nos iPhones, até à Microsoft com o Windows Hello que suporta reconhecimento facial e biométrico, todas estas inovações prometiam o fim das passwords.\n
+
+Contudo, a realidade é que as passwords ainda não morreram… ou… será que sim? Com WebAuthn está-se muito mais perto de pôr fim às passwords!\n
+
+Nesta palestra irás descobrir o que é a **FIDO** e como a **WebAuthn** já se encontra presente em todos os browsers mais populares, com a missão de **combater phishing** e de **acabar com os métodos de autenticação com passwords** na Web!\n
+",
                     "speaker": "José Pedro Silva",
                     "location": "I-105"
                 }
