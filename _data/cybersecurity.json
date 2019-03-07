@@ -4,19 +4,31 @@
             "day": 11,
             "events": [
                 {
-                    "public": false,
+                    "public": true,
                     "starts_at": "14:00",
                     "ends_at": "16:30",
                     "type": "workshop",
-                    "title": "Reverseing Firmware / IoT Devices",
-                    "description": null,
-                    "speaker": "Luís Granguela",
+                    "title": "Workshop de reverse engineering e segurança de dispositivos IoT",
+                    "description": "Neste workshop vai ser apresentado em detalhe o processo de exploração de vulnerabilidades de segurança no relógio TomTom Runner, e como foi possível tirar partido destas para obter acesso ao firmware do relógio e alterá-lo.
+
+
+                    Será feita uma apresentação das ferramentas e metodologias utilizadas (**gdb**, **python**, **IDA Pro**, **hexedit**), e também da recente ferramenta **Ghidra**, disponibilizada pela NSA para *reverse engineering*.
+
+
+                    O **Ghidra** será utilizado para fazer um *patch* ao firmware de forma a desbloquear funcionalidades até então escondidas no software.
+
+
+                    **Requisitos**
+
+                    
+                    - Trazer computador pessoal com Linux ou Mac OS",
+                    "speaker": "Luís Grangeia",
                     "location": "TBA"
                 },
                 {
                     "public": false,
-                    "starts_at": "16:30",
-                    "ends_at": "18:30",
+                    "starts_at": "17:00",
+                    "ends_at": "19:00",
                     "type": "talk",
                     "title": "WebAuthn",
                     "description": null,
