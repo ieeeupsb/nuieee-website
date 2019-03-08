@@ -241,6 +241,7 @@ footer {
   border-bottom: 2px dashed #e5e5e5; }
   #program .program-row .description p,
   #program .program-row .description ul,
+  #program .program-row .description ol,
   #program .program-row .description span {
     font-size: 0.9em; }
 #program .program-row:nth-child(odd) .info {
