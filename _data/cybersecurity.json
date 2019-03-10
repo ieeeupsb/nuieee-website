@@ -69,20 +69,21 @@ Nesta palestra irás descobrir o que é a **FIDO** e como a **WebAuthn** já se 
             "day": 13,
             "events": [
                 {
-                    "public": false,
+                    "public": true,
                     "starts_at": "14:00",
                     "ends_at": "16:00",
                     "type": "talk",
                     "title": "Connected Cars and V2X security",
-                    "description": null,
+                    "description": "Com os avanços da tecnologias e o aparecimento de carros autónomos e redes inteligentes, torna-se fulcral a comunicação entre veículos e a segurança dos dados que são partilhados. Nesta talk serão abordadas as mais recentes inovações no campo dos carros autónomos nomeadamente no campo da comunicação entre veículos. Nos últimos anos a Veniam, uma das 50 mais disruptivas empresas do mundo, tem se dedicado a estes temas acelerando a mobilidade do futuro e criando sistemas e softwares para comunicação entre veículos com grande foco nos veículos autónomos.",
                     "speaker": "Rui Costa | Veniam",
                     "location": "I-105"
                 }, {
-                    "public": false,
+                    "public": true,
                     "starts_at": "16:00",
                     "ends_at": "16:30",
-                    "title": "Coffee Break",
-                    "description": "Ambiente relaxado onde os participantes poderão entrar em contacto, de uma forma informal e direta, com o orador.",
+                    "type": "coffee break",
+                    "title": "Networking Session",
+                    "description": "Ambiente relaxado onde os participantes poderão entrar em contacto, de uma forma informal e direta, com o orador Rui Costa. Poderás também desfrutar de um **coffee break**",
                     "location": "I-105"
                 }
             ]
