@@ -216,11 +216,13 @@ permalink: /cybersecurity
                                     <h5>{% if event.public %} {{ event.title }} {% else %} TBA {% endif %}</h5>
                                     {% if event.public %} <p> {{ event.description | markdownify }} </p> 
                                     <div class="d-flex">
+                                        {% if event.speaker %}
                                         <div class="d-flex align-items-center">
                                             <i class="fas fa-user"></i>
                                             <span>{% if event.public %} {{ event.speaker }} {% else %} TBA {% endif %}</span>
                                         </div>
-                                        <div class="d-flex align-items-center ml-5">
+                                        {% endif %}
+                                        <div class="d-flex align-items-center {% if event.speaker %} ml-5 {% endif %}">
                                             <i class="fas fa-map-pin"></i>
                                             <span>{% if event.public %} {{ event.location }} {% else %} TBA {% endif %}</span>
                                         </div>
