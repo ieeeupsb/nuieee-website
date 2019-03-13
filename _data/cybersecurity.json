@@ -106,6 +106,17 @@ Este workshop faz uma introdução prática ao tema da aprendizagem adversa, foc
 3. Discussão sobre outras técnicas de aprendizagem adversa e outros modelos de ameaça e sobre a aplicação da aprendizagem adversa em vários aspetos da cibersegurança como a deteção de Malware e de tráfego C2C, identificação de texto malicioso, e o reconhecimento facial.",
                     "speaker": "Ricardo Morla",
                     "location": "I321"
+                },{
+                    "public": true,
+                    "starts_at": "17:00",
+                    "ends_at": "17:30",
+                    "type": "talk",
+                    "title": "Segurança em redes - Os primeiros passos",
+                    "description": "Tens curiosidade por redes? Gostavas de saber como podes atacar uma rede? Tens dúvidas sobre como podes dar os primeiros passos numa carreira em segurança de redes?\n
+
+Nesta pequena talk vais ter oportunidade de saber mais sobre o [**João Cerqueira**](https://www.linkedin.com/in/jo%C3%A3o-cerqueira/), qual foi o seu percurso, e esclarecer todas as tuas dúvidas. No final, terás oportunidade de assistir a um pequeno ataque a uma rede!",
+                    "speaker": "João Cerqueira",
+                    "location": "TBA"
                 }
             ]
         }
