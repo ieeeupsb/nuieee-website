@@ -127,8 +127,11 @@ Nesta pequena talk vais ter oportunidade de saber mais sobre o [**João Cerqueir
                     "starts_at": "15h30",
                     "ends_at": "17h00",
                     "type": "talk",
-                    "title": "API Security - case study",
-                    "description": "Nesta talk irás aprender a definição e conceitos básicos de REST (**RE**presentational **S**tate **T**transfer) API e recomendações de segurança em APIs com base no OWASP.\n
+                    "title": "API Security - case study [Cancelado]",
+                    "description": "
+**CANCELADO: Infelizmente, devido à falta de adesão, tivemos que cancelar o evento. Vamos tentar que seja agendado para outra data.**\n
+
+Nesta talk irás aprender a definição e conceitos básicos de REST (**RE**presentational **S**tate **T**transfer) API e recomendações de segurança em APIs com base no OWASP.\n
 
 No fim será apresentado um *case study* de um projeto em que surgiram um conjunto de problemas de segurança reportados nos testes de penetração por uma empresa reconhecida no mercado. Serão explicados alguns dos casos mais comuns e ações tomadas para resolver ou mitigar o risco.",
                     "speaker": "Paulo Noormahomed | ITSector",
