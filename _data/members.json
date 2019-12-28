@@ -10,7 +10,7 @@
             {
                 "name": "Gongalo Marantes",
                 "course": "MIEIC",
-                "photo": "luissousa.jpg",
+                "photo": "gmarantes.jpg",
                 "position": "Vice-Chair"
             },
             {
@@ -28,23 +28,18 @@
             {
                 "name": "Paula Graça",
                 "course": "MIEEC",
-                "photo": "none.jpg",
+                "photo": "empty.jpg",
                 "position": "Secretary"
             }
         ]
     },
-    "departments": 
-        {
-            "title": "Communication and Image"
-        }
-    ],
     "affinityGroups": [{
         "title": "WIE",
         "alt": "Women In Engineering",
         "members": [{
             "name": "Carolina Soares",
             "course": "MIEIC",
-            "photo": "none.jpg"
+            "photo": "empty.jpg"
         }]
     }],
     "chapters": [{
@@ -53,7 +48,7 @@
             "members": [{
                 "name": "Beatriz Garrido",
                 "course": "MIEEC",
-                "photo": "none.jpg"
+                "photo": "empty.jpg"
             }]
         },
         {
@@ -67,7 +62,12 @@
         },
         {
             "title": "EMBS",
-            "alt": "Engineering in Medicine and Biology Society"
+            "alt": "Engineering in Medicine and Biology Society",
+			"members": [{
+                "name": "Miguel Coimbra",
+                "course": "FCUP",
+                "photo": "empty.jpg"
+            }]
         },
         {
             "title": "PES",
@@ -76,6 +76,15 @@
                 "name": "Diogo Martins",
                 "course": "MIEEC",
                 "photo": "diogomartins.jpg"
+            }]
+        },
+        {
+            "title": "AESS",
+            "alt": "Aerospace and Electronic Systems Society",
+            "members": [{
+                "name": "RIcardo Fitas",
+                "course": "MIEM",
+                "photo": "empty.jpg"
             }]
         }
     ]
